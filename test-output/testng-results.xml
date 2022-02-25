@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2990" started-at="2022-02-23T01:14:05 IST" finished-at="2022-02-23T01:14:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2990" started-at="2022-02-23T01:14:05 IST" finished-at="2022-02-23T01:14:08 IST">
+      <class name="DataDrivenExample1">
+        <test-method status="PASS" signature="test_post(java.lang.String,java.lang.String,int)[pri:0, instance:DataDrivenExample1@51e2adc7]" name="test_post" duration-ms="2852" started-at="2022-02-23T01:14:05 IST" data-provider="DataForPost" finished-at="2022-02-23T01:14:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Graham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post -->
+        <test-method status="PASS" signature="test_post(java.lang.String,java.lang.String,int)[pri:0, instance:DataDrivenExample1@51e2adc7]" name="test_post" duration-ms="68" started-at="2022-02-23T01:14:08 IST" data-provider="DataForPost" finished-at="2022-02-23T01:14:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Henry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ford]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post -->
+      </class> <!-- DataDrivenExample1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
