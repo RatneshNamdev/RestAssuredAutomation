@@ -43,4 +43,10 @@ public class Tests_GET{
 //		String email= given().get("/8").then().extract().path("email");
 //		System.out.println(email);
 	}
+	
+	@Test
+	public void test_02() {
+		
+		System.out.println("Hello heros...");
+	}
 }
